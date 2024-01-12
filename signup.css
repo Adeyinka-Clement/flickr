@@ -1,0 +1,75 @@
+#nav{
+    position: fixed !important;
+    z-index: 99999999999999999999999999999999999999 !important ;
+    width: 100% !important;
+    background-color: rgb(19, 18, 18);
+  }
+  .logo{
+    width: 45%;
+  }
+  #carouselImage{
+    height: 100vh !important;
+    position: fixed !important;
+  }
+#carouse{
+    margin-bottom: -10vh !important;
+    z-index: 999999 !important;
+    height: 108vh !important;
+    position: absolute !important;
+    justify-content: center !important;
+     margin-left: 37% !important;   
+     width: 25% !important;
+     padding-top: 50px !important;
+}
+.contain{
+}
+#carousel{
+    width: 100% !important;
+}
+p{
+   color: black !important  ;
+}
+input:focus{
+    box-shadow: none !important;
+    border: 1px solid rgb(5, 124, 250) !important;
+}
+input{
+   border: 1px solid rgb(158, 161, 165) !important;
+}
+.logo2{
+    width: 20%;
+}
+.cleo{
+    background-color: rgb(233, 229, 229);
+    border: 1px solid rgb(128, 125, 125);
+}
+.small{
+    font-size: 12px !important;
+    line-height: 0.1rem !important;
+}
+
+label{
+    font-weight: 500;
+    font-size: 14px;
+    color: rgb(124, 123, 123);
+}
+span{
+    color: rgb(9, 52, 240) !important;
+}
+
+@media screen and (max-width: 475px){
+#carouse{
+    width: 100% !important;
+    margin-left: 0% !important;   
+    padding-top: 60px !important;
+    height: 135vh !important;
+
+}
+.logo{
+    margin-left: -50px !important;
+}
+.head{
+    display: block !important;
+}
+
+}

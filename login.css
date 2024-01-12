@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#logo{
+    width: 110px;
+}
+body{
+    /* overflow: hidden; */
+    
+
+}
+nav{
+    z-index: 99999999999999999999999999999999999999999999999999999999999999999 !important;
+    position: fixed !important;
+    width: 100%;
+    
+}
+.back-img{
+    height: 94vh !important;
+    width: 100%;
+    position: relative;
+    margin-top: 50px !important;
+    z-index: 9999;
+}
+.main{
+    z-index: 9999999999999999999999999999999999999999 !important;
+    margin-top: -550px !important;
+    position: relative;
+}
+.logo2{
+    width: 29px !important;
+}
+input:focus{
+    box-shadow: none !important;
+}
+@media screen and (max-width: 475px){
+    .contain3{
+        height: 92vh !important;
+    }
+    .main{
+        margin-top: -618px !important;
+    }
+    .logo2{
+        width: 27px !important;
+    }
+}

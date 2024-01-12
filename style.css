@@ -1,0 +1,175 @@
+
+body{
+
+  overflow-y: hidden !important;
+}
+.logo{
+  width: 55%;
+}
+#carouselExampleSlidesOnly{
+  margin-top: -10vh !important;
+}
+.almost{
+  display: none !important;
+}
+#nav{
+  position: fixed !important;
+  z-index: 999999999999999 !important;
+  width: 100% !important;
+  background-color: rgba(0, 0, 0, 0.358);
+}
+.img{
+  height: 100vh;
+}
+.a{
+}
+
+h1{
+  color: white;
+}
+.carousel-caption{
+  margin-bottom: 4vh !important;
+  position: absolute !important;
+  z-index: 9999999999999999999999999999999999999999999999999999 !important;
+}
+#carouselText1{
+  font-size: 56px;
+  font-weight: 600;
+
+}
+#carouselImage{
+  height: 100vh !important;
+  width: 100% !important;
+}
+#carouselText2{
+  font-size: 25px;
+  font-weight: 500;
+}
+ 
+.start{
+  border: none;
+  font-weight: 600;
+}
+.last{
+  margin-top: 50px !important;
+color: white !important;
+}
+.last2{
+color: white !important;
+
+}
+#carousel{
+  margin-top: 10vh ;
+}
+a{
+  text-decoration: none !important;
+  color: black !important;
+
+}
+.nav-inp{
+  height: 4vh ;
+  width: 750px !important;
+  margin-right: 80px;
+  background-color: rgb(231, 230, 228) !important;
+}
+input:placeholder-shown{
+  font-size: 15px !important;
+}
+.signup{
+  width: 100px;
+  height: 6vh !important;
+  
+}
+.login{
+  color: white !important;
+  width: 100px;
+}
+footer{
+  z-index: 9999999999999999999 !important;
+  position:  sticky !important;
+  margin-top: -8vh !important;
+  padding-top: -20px !important;
+}
+.footC{
+  background-color: rgb(0, 0, 0) !important;
+}
+.foot{
+  color: rgb(151, 149, 149) !important;
+}
+.almost{
+  display: none !important;
+}
+.facebook{
+  width: 18px !important;
+}
+
+@media screen and (max-width : 475px){
+  body{
+    overflow-y: auto !important;
+  }
+  .facebook{
+    width: 20px !important;
+  }
+  .nav-inp{
+    display: none !important;
+  }
+  .signup{
+    display: none !important;
+  }
+.foot{
+  margin-left: 20px !important;
+  color: rgb(151, 149, 149) !important;
+}
+.foot2{
+  display: none !important;
+}
+.carousel-caption{
+  margin-top: -55vh !important;
+  position: sticky !important; 
+  background-color: transparent !important;
+  
+}
+#carouselText1{
+  font-size: 42px;
+  font-weight: 600;
+
+}
+.last2{
+  position: absolute !important;
+  margin-top: -60px !important;
+  left: 120px !important;
+  
+}
+footer{
+  margin-top: -8vh !important;
+}
+.almost{
+  background-color: black !important;
+}
+#carouselText2{
+  font-size: 15px;
+  font-weight: 500;
+  display: none !important;
+}
+.start{
+  width: 150px !important;
+}
+.login{
+  border: 1px solid white !important;
+  border-radius: 0% !important;
+}
+.cont{
+  background-image: linear-gradient(to right, rgb(7, 7, 7), rgb(125, 125, 128),rgb(125, 125, 128),rgb(125, 125, 128),rgb(125, 125, 128),rgb(125, 125, 128),rgb(7, 7, 7)) !important;
+}
+#carouselImage{
+  height: 100vh !important;
+  width: 100% !important;
+}
+.footC{
+  margin-bottom: 1px !important;
+  background-color: rgb(0, 0, 0) !important;
+}
+.almost{
+  display: block !important;
+}
+}
